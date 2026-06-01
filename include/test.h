@@ -1,3 +1,4 @@
 #pragma once
 
-void testFunction();
+//make a function that return a string like char *string
+char *testInclude();

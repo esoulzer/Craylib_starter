@@ -3,7 +3,6 @@
 
 int main() {
     const Color darkGreen = {45, 50, 59, 255};
-    testFunction();
 
     InitWindow(800, 600, "My first RAYLIB program!");
     SetTargetFPS(60);
@@ -11,6 +10,7 @@ int main() {
     while (!WindowShouldClose()) {
         BeginDrawing();
         ClearBackground(darkGreen);
+        DrawText(testInclude(), 10, 10, 20, RAYWHITE);
         EndDrawing();
     }
 
